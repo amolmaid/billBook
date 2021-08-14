@@ -20,7 +20,6 @@ export class BillComponent implements OnInit {
     this.items = JSON.parse(localStorage.getItem('bill_items'))
 
     console.log("Data in bill template", this.record, "\n", this.items)
-
   }
 
   downloadBill() {
